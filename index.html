@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<script src="script.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
+<script  src="jquery.knob.js"></script>
+<body >
+	<div id = "main">
+		<h1>Speed Game</h1>
+		<input id ="go" onclick="Go()"></input>
+		<div id = "intro">
+			<p>Click, from lowest to highest, as many button as possible within the given time.</p>
+			<input type = "submit" onclick="Go()" value="Start"></input>
+		</div>
+		<div id="game"></div>
+		<div class="info">
+			<span id="time">30</span>
+			<p id="label"></p>
+			<p id="score">0</p>
+		</div>
+	</div>
+	
+</body>
+
+</html>
